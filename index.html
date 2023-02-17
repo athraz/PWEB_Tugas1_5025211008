@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWEB Tugas 1 CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        .profile {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            margin: 175px 0;
+        }
+
+        .profile .content {
+            max-width: 1000px;
+            padding: 25px 10%;
+        }
+
+        .profile .content h1 {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .profile .content p {
+            margin-top: 24px;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.4;
+            color: #a4a4a4;
+        }
+
+        .profile img {
+            max-height: 300px;
+            max-width: 300px;
+            border-radius: 150px;
+            margin-left: 80px;
+        }
+
+        .line1, .line2, .line3 {
+            width: 80%;
+            margin: auto;
+            border-bottom: 1px solid rgb(253, 185, 39);
+        }
+
+        .edu, .exp {
+            padding: 0 10%;
+            margin: 100px 0px;
+        }
+
+        .edu h2, .exp h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+
+        .edu table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .edu th, td {
+            padding: 10px 20px;
+            border: 1px solid rgb(253, 185, 39);
+        }
+
+        .edu th {
+            font-size: 28px;
+            background-color: #4d4d4d;
+            font-weight: 600;
+        }
+
+        .edu td {
+            font-size: 24px;
+            font-weight: 200;
+        }
+
+        .exp .sch23, .sch22, .kmi {
+            display: flex;
+            align-items: center;
+        }
+
+        .exp img {
+            max-width: 250px;
+            max-height: 250px;
+        }
+
+        .exp .text h3 {
+            font-size: 28px;
+            padding-left: 100px;
+            font-weight: 600;
+        }
+
+        .exp .text h4 {
+            font-size: 20px;
+            padding-left: 100px;
+            font-weight: 400;
+            color: rgb(253, 185, 39);
+        }
+
+        .exp .text span {
+            color: white;
+        }
+
+        .exp .text ul {
+            font-size: 18px;
+            padding-left: 120px;
+            font-weight: 200;
+            color: #a4a4a4;
+        }
+
+        .social {
+            padding: 100px 10% 24px;
+            text-align: center;
+        }
+
+        .social h2{
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 100px;
+        }
+
+        .social .content {
+            margin-bottom: 100px;
+        }
+
+        .social .content a {
+            color: white;
+            margin: 0 50px;
+        }
+
+        .social .content a:hover {
+            color: rgb(253, 185, 39);
+        }
+
+        .social .content .icon {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- profil start -->
+    <div class="profile">
+        <div class="content">
+            <h1>Muhammad Razan Athallah</h1>
+            <p>Saya adalah mahasiswa S1 Teknik Informatika Institut Teknologi Sepuluh Nopember
+                yang berasal dari Gresik, Jawa Timur. Memiliki ketertarikan pada bidang matematika
+                dan ilmu komputer terutama Competitive Programming.
+            </p>
+        </div>
+        <img src="bnw.png" alt="foto">
+    </div>
+    <div class="line1"></div>
+    <!-- profil end -->
+
+    <!-- pendidikan start -->
+    <div class="edu">
+        <h2>Pendidikan</h2>
+        <table cellspacing=0>
+            <tr>
+                <th>Jenjang Pendidikan</th>
+                <th>Keterangan</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>Sekolah Dasar</td>
+                <td>SD Muhammadiyah 1 GKB Gresik</td>
+                <td>2009 - 2015</td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Pertama</td>
+                <td>SMP Muhammadiyah 12 GKB Gresik</td>
+                <td>2015 - 2018</td>
+            </tr>
+            <tr>
+                <td>Sekolah Menengah Keatas</td>
+                <td>SMA Negeri 1 Gresik</td>
+                <td>2018 - 2021</td>
+            </tr>
+            <tr>
+                <td>Perguruan Tinggi</td>
+                <td>Institut Teknologi Sepuluh Nopember</td>
+                <td>2021 - Sekarang</td>
+            </tr>
+        </table>
+    </div>
+    <div class="line2"></div>
+    <!-- pendidikan end -->
+
+
+    <!-- pengalaman start -->
+    <div class="exp">
+        <h2>Pengalaman</h2>
+        <div class="sch23">
+            <img src="sch23.png" alt="exp1">
+            <div class="text">
+                <h3>Schematics 2023</h3>
+                <h4>Staf Ahli Scientific Commitee Schematics NPC <span>(Januari 2023 - Sekarang)</span></h4>
+                <ul>
+                    <li>Membuat problem dan testcase untuk penyisihan dan final</li>
+                    <li>Proctoring peserta babak final</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sch22">
+            <img src="sch22.png" alt="exp2">
+            <div class="text">
+                <h3>Schematics 2022</h3>
+                <h4>Staf Ahli Scientific Commitee Schematics NPC <span>(Mei 2022 - November 2022)</span></h4>
+                <ul>
+                    <li>Membuat problem dan testcase untuk penyisihan dan final</li>
+                    <li>Proctoring peserta babak final</li>
+                </ul>
+            </div>
+        </div>
+        <div class="kmi">
+            <img src="kmi.png" alt="exp3">
+            <div class="text">
+                <h3>Keluarga Muslim Informatika 2022</h3>
+                <h4>Staf Divisi Dakwah Kreatif <span>(Maret 2022 - Januari 2023)</span></h4>
+                <ul>
+                    <li>Membuat desain untuk sosial media KMI</li>
+                    <li>Membuat desain poster beberapa event KMI</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="line3"></div>
+    <!-- pengalaman end -->
+
+    <!-- kontak start -->
+    <div class="social">
+        <h2>Kontak</h2>
+        <div class="content">
+            <a href="https://www.instagram.com/zanathallah/">
+                <i class="icon" data-feather="instagram"></i>
+            </a>
+            <a href="https://github.com/athraz">
+                <i class="icon" data-feather="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/razan-athallah/">
+                <i class="icon" data-feather="linkedin"></i>
+            </a>
+            <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=DdTmSqKztkrqpPrvvHpGGdlGLgqzfnDSkCVffzVbMbgWsSHsdQvRXTzkCsKWgrMPFjL">
+                <i class="icon" data-feather="mail"></i>
+            </a>
+        </div>
+    </div>
+    <!-- kontak end -->
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
